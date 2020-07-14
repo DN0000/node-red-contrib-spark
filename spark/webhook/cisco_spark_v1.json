@@ -36,6 +36,7 @@
             "all": {
                 "name": "All",
                 "summary": "Triggered for all Room Membership events."
+            }
         }
     },
     "rooms": {
@@ -53,6 +54,7 @@
             "all": {
                 "name": "All",
                 "summary": "Triggered for all Room events."
+            }
         }
     },
     "attachmentActions": {
@@ -62,6 +64,7 @@
             "created": {
                 "name": "Created",
                 "summary": "Triggered for Attachment Actions events."
+            }
         }
     },
     "all": {
@@ -71,6 +74,7 @@
             "all": {
                 "name": "All",
                 "summary": "Triggered for all Room, Memberships and Messages events."
+            }
         }
     }
 
