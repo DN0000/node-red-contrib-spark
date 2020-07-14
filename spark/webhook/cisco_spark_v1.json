@@ -10,6 +10,10 @@
             "deleted": {
                 "name": "Deleted",
                 "summary": "Triggered when an existing Message is deleted."
+            },
+            "all": {
+                "name": "All",
+                "summary": "Triggered for all Message events."
             }
         }
     },
@@ -28,7 +32,10 @@
             "deleted": {
                 "name": "Deleted",
                 "summary": "Triggered when an existing Room Membership is deleted."
-            }
+            },
+            "all": {
+                "name": "All",
+                "summary": "Triggered for all Room Membership events."
         }
     },
     "rooms": {
@@ -42,7 +49,29 @@
             "updated": {
                 "name": "Updated",
                 "summary": "Triggered when an existing Room is updated."
-            }
+            },
+            "all": {
+                "name": "All",
+                "summary": "Triggered for all Room events."
+        }
+    },
+    "attachmentActions": {
+        "name": "Attachment Actions",
+        "summary": "Triggers that apply to Attachment Actions.",
+        "events": {
+            "created": {
+                "name": "Created",
+                "summary": "Triggered for Attachment Actions events."
+        }
+    },
+    "all": {
+        "name": "All",
+        "summary": "Triggers that apply to Rooms, Memberships and Messages.",
+        "events": {
+            "all": {
+                "name": "All",
+                "summary": "Triggered for all Room, Memberships and Messages events."
         }
     }
+
 }

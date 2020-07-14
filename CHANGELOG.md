@@ -1,3 +1,7 @@
+#### 2.2.0: Feature Release
+  - Included "All" events for resources for webhooks
+  - Added attachmentActions resource for webhooks
+
 #### 2.1.0: Branding Update
 
   - Updated mentions of "Spark" to now refer to "Webex Teams"
