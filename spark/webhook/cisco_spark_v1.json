@@ -1,62 +1,4 @@
 {
-    "messages": {
-        "name": "Messages",
-        "summary": "Triggers that apply to Messages.",
-        "events": {
-            "created": {
-                "name": "Created",
-                "summary": "Triggered when a new Message is created."
-            },
-            "deleted": {
-                "name": "Deleted",
-                "summary": "Triggered when an existing Message is deleted."
-            },
-            "all": {
-                "name": "All",
-                "summary": "Triggered for all Message events."
-            }
-        }
-    },
-    "memberships": {
-        "name": "Memberships",
-        "summary": "Triggers that apply to Room Memeberships.",
-        "events": {
-            "created": {
-                "name": "Created",
-                "summary": "Triggered when a new Room Membership is created."
-            },
-            "updated": {
-                "name": "Updated",
-                "summary": "Triggered when an existing Room Membership is updated."
-            },
-            "deleted": {
-                "name": "Deleted",
-                "summary": "Triggered when an existing Room Membership is deleted."
-            },
-            "all": {
-                "name": "All",
-                "summary": "Triggered for all Room Membership events."
-            }
-        }
-    },
-    "rooms": {
-        "name": "Rooms",
-        "summary": "Triggers that apply to Rooms.",
-        "events": {
-            "created": {
-                "name": "Created",
-                "summary": "Triggered when a new Room is created."
-            },
-            "updated": {
-                "name": "Updated",
-                "summary": "Triggered when an existing Room is updated."
-            },
-            "all": {
-                "name": "All",
-                "summary": "Triggered for all Room events."
-            }
-        }
-    },
     "attachmentActions": {
         "name": "Attachment Actions",
         "summary": "Triggers that apply to Attachment Actions.",
@@ -76,6 +18,63 @@
                 "summary": "Triggered for all Room, Memberships and Messages events."
             }
         }
+    },
+    "messages": {
+        "name": "Messages",
+        "summary": "Triggers that apply to Messages.",
+        "events": {
+            "all": {
+                "name": "All",
+                "summary": "Triggered for all Message events."
+            },
+            "created": {
+                "name": "Created",
+                "summary": "Triggered when a new Message is created."
+            },
+            "deleted": {
+                "name": "Deleted",
+                "summary": "Triggered when an existing Message is deleted."
+            }
+        }
+    },
+    "memberships": {
+        "name": "Memberships",
+        "summary": "Triggers that apply to Room Memeberships.",
+        "events": {
+            "all": {
+                "name": "All",
+                "summary": "Triggered for all Room Membership events."
+            },
+            "created": {
+                "name": "Created",
+                "summary": "Triggered when a new Room Membership is created."
+            },
+            "updated": {
+                "name": "Updated",
+                "summary": "Triggered when an existing Room Membership is updated."
+            },
+            "deleted": {
+                "name": "Deleted",
+                "summary": "Triggered when an existing Room Membership is deleted."
+            }
+        }
+    },
+    "rooms": {
+        "name": "Rooms",
+        "summary": "Triggers that apply to Rooms.",
+        "events": {
+            "all": {
+                "name": "All",
+                "summary": "Triggered for all Room events."
+            },
+            "created": {
+                "name": "Created",
+                "summary": "Triggered when a new Room is created."
+            },
+            "updated": {
+                "name": "Updated",
+                "summary": "Triggered when an existing Room is updated."
+            }
+        }
     }
-
 }
